@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-// middleware
+// middlewar
 app.use(express.static('public'));
 
 // view engine
