@@ -11,7 +11,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 // database connection
-const dbURI = 'mongodb+srv://thomas6:ghoStly71@@cluster0.oe6ik.mongodb.net/node-auth';
+const dbURI = 'mongodb+srv://tskeens71:dante71@cluster0.oe6ik.mongodb.net/node-auth';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
   .then((result) => app.listen(3000))
   .catch((err) => console.log(err));
